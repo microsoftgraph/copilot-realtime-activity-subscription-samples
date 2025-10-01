@@ -89,13 +89,13 @@ namespace TranscriptSubscriptionSample.Models
         [JsonPropertyName("transcriptionStarted")]
         TranscriptionStarted,
 
-        [JsonPropertyName("transcriptionStopped")]
-        TranscriptionStopped,
+        [JsonPropertyName("transcriptionEnded")]
+        TranscriptionEnded,
 
         [JsonPropertyName("recordingStarted")]
         RecordingStarted,
 
-        [JsonPropertyName("recordingStopped")]
-        RecordingStopped
+        [JsonPropertyName("recordingEnded")]
+        RecordingEnded
     }
 }

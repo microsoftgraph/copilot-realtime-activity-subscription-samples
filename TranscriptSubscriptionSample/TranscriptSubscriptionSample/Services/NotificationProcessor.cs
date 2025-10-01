@@ -48,7 +48,7 @@ namespace TranscriptSubscriptionSample.Services
 
         private async Task HandleMeetingEvent(MeetingCallEvent meetingCallEvent)
         {
-            if (meetingCallEvent?.EventType == CallEventType.CallStarted)
+            if (meetingCallEvent?.EventType == CallEventType.TranscriptionStarted)
             {
                 await subscriptionsService.AddSubscription(meetingCallEvent.JoinWebUrl);
             }
