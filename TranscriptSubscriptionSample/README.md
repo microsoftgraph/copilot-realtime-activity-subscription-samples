@@ -23,6 +23,14 @@ This sample demonstrates how to create a transcript subscription using the Graph
    - `OnlineMeetings.Read.All` (Application)
    - `OnlineMeetings.ReadWrite.All` (Application)
 
+### Register Bot in Teams Store
+1. Go to the [Azure Portal](https://portal.azure.com/) and navigate to "Create a resource".
+2. Search for "Bot Services", click "Create" and then select "Azure Bot".
+3. Fill in all the details. Select "Use existing app registration" and select the app you registered in the previous step.
+4. Click "Create" to provision the bot.
+5. Once the resource is provisioned, go to the resource and navigate to "Channels" by expanding "Settings".
+6. Select "Microsoft Teams". Go to "Calling" tab and enable "Allow calling". Add the callback URL and press "Apply".
+
 ### Configure your development environment
 
 1. Clone this repository to your local machine.
